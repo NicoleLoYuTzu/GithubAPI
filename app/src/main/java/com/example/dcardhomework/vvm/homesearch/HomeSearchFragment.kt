@@ -31,8 +31,7 @@ class HomeSearchFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentHomeSearchBinding.inflate(layoutInflater)
-//        ss
-        //aa
+//        s
         // Create a Coroutine scope using a job to be able to cancel when needed
         val job = Job()
         // the Coroutine runs using the Main (UI) dispatcher
